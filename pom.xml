@@ -26,7 +26,7 @@
         <gherkin.version>4.1.3</gherkin.version>
         <junit.version>4.12</junit.version>
         <mockito.version>1.10.19</mockito.version>
-        <gosu.version>1.14.6</gosu.version>
+        <gosu.version>1.14.8</gosu.version>
 
     </properties>
 
