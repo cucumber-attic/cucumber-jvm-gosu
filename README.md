@@ -4,7 +4,7 @@ Cucumber Gosu
 ## Installation
 
 ### Maven
-To use cucumber-jvm-clojure in your project, add the following dependency to your `pom.xml`:
+To use cucumber-jvm-gosu in your project, add the following dependency to your `pom.xml`:
 
 ```xml
 <dependency>
