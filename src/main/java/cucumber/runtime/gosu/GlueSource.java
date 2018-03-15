@@ -3,7 +3,7 @@ package cucumber.runtime.gosu;
 import cucumber.runtime.io.Resource;
 import gw.lang.reflect.ReflectUtil;
 import gw.lang.reflect.gs.GosuClassPathThing;
-import gw.lang.reflect.gs.IProgramInstance;
+import gw.lang.reflect.gs.IGosuProgram;
 
 class GlueSource {
 
@@ -21,14 +21,7 @@ class GlueSource {
      */
     public void addGlueScript(Resource glueScript) {
         String className = glueScript.getClassName(".gsp");
-        Class clazz = ReflectUtil.getClass(className).getBackingClass();
-        try {
-            ((IProgramInstance)(clazz.newInstance())).evaluate(null);
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        }
+        ((IGosuProgram) ReflectUtil.getClass(className)).getProgramInstance().evaluate(null);
     }
 
 }
