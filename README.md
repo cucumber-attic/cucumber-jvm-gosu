@@ -1,6 +1,6 @@
 # cucumber-jvm-gosu
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.cucumber/cucumber-jvm/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.cucumber/cucumber-jvm-gosu)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.cucumber/cucumber-jvm/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.cucumber/cucumber-gosu)
 
 ## Installation
 
